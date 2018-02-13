@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: b10509017-demo1
+  host: b10509017-demo1
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform
+  - b10509017-demo1-cloudantNoSQLDB
+  - Visual Recognition-b10509017
